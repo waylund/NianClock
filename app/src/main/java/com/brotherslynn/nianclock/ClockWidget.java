@@ -64,10 +64,10 @@ public class ClockWidget extends AppWidgetProvider {
             }
 
             //get ready to handle clicks on the clock widget - launch chooser Activity
-            //Intent choiceIntent = new Intent(context, ClockChoice.class);
-            //PendingIntent clickPendIntent = PendingIntent.getActivity
-            //        (context, 0, choiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-            //views.setOnClickPendingIntent(R.id.custom_clock_widget, clickPendIntent);
+            Intent choiceIntent = new Intent(context, ClockChoice.class);
+            PendingIntent clickPendIntent = PendingIntent.getActivity
+                    (context, 0, choiceIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+            views.setOnClickPendingIntent(R.id.custom_clock_widget, clickPendIntent);
 
             //update the widget
             AppWidgetManager.getInstance(context).updateAppWidget

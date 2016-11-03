@@ -15,7 +15,8 @@ package="com.brotherslynn.nianclock">
 
     </activity>
 
-    <!-- <activity android:name=".ClockChoice"></activity> -->
+    <activity android:name=".ClockChoice" android:theme="@android:style/Theme.Dialog">
+    </activity>
 
     <receiver android:name=".ClockWidget" android:label="Custom Clock Widget">
         <intent-filter>

@@ -4,6 +4,13 @@
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
 
+    <!-- Clock Chooser Strings -->
+    <string name="choice_intro">Choose an option:</string>
+
+    <string name="design1">Default design</string>
+    <string name="design2">Stone design</string>
+    <string name="design3">Metal design</string>
+
     <string name="hello">
         Hello\n\n
         Thanks for installing the Custom Clock Widget.\n\n
